@@ -105,7 +105,6 @@ header.shadow {
   display: inline-flex;
   position: relative;
   left: 50px;
-  
 }
 
 .home-img img {
@@ -117,7 +116,6 @@ header.shadow {
 .home-img:hover{
     transform: scale(1.1);
     transition: 1s;
-
 }
 .home-text span {
   font-size: var(--medium-font);
@@ -168,9 +166,7 @@ header.shadow {
 .about-img img {
   width: 60%;
   height: 90%;
-  
-  
-  border-radius: 0.5rem;
+  border-radius: 0.5rem
 }
 .about-img:hover{
     transform: scale(1.1);
@@ -484,7 +480,6 @@ form textarea {
     margin-left: 25%;
   }
 }
-
 @media (max-width: 340px) {
   :root {
     --big-font: 1.7rem;
@@ -509,14 +504,50 @@ form textarea {
   .contact-button{
     margin-left: 25%;
   }
-  .maps-all{
-    display: flex;
-    justify-content: center;
-  }
-  .maps-all iframe{
-    margin-bottom: 15%;
-  }
  }
+
+ .footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-social a {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.maps-all {
+  display: flex;
+  justify-content: center;
+}
+
+.maps-all iframe {
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  border: 0;
+}
+
+@media (min-width: 600px) {
+  .footer-social {
+      gap: 20px;
+  }
+
+  .maps-all iframe {
+      width: 600px;
+      height: 450px;
+  }
+}
+
 
 /*=========================== Cart Image ================================*/
 
