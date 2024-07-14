@@ -82,10 +82,11 @@ header.shadow {
   color: var(--hover);
 }
 #menu-icon {
-  font-size: 24px;
+  font-size: 35px;
   cursor: pointer;
   z-index: 10001;
   display: none;
+  margin-right: 35px;
 }
 #darkmode {
   font-size: 22px;
@@ -430,7 +431,7 @@ form textarea {
     text-align: center;
   }
   .navbar.active {
-    top: 100%;
+    top: 74%;
   }
   .navbar a {
     padding: 1.5rem;
