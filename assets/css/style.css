@@ -522,6 +522,33 @@ form textarea {
         height: 450px;
     }
 }
+
+@media (max-width: 850px) {
+  header {
+      padding: 18px 4%;
+  }
+  
+  .footer {
+      padding: 15px;
+  }
+
+  .footer h2 {
+      font-size: 1.5em;
+  }
+
+  .footer-social {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .footer-social a {
+      font-size: 20px;
+  }
+
+  .maps-all iframe {
+      height: 250px;
+  }
+}
 /*=========================== Cart Image ================================*/
 
 .maps-all{
