@@ -9,6 +9,7 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
+  
 }
 :root {
   --main-color: #033a80;
@@ -395,7 +396,7 @@ form textarea {
     padding: 18px 4%;
   }
   section {
-    padding: 50px 4%;
+    padding: 40px 10%;
   }
 }
 @media (max-width: 881px) {
