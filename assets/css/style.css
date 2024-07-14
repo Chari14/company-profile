@@ -447,6 +447,7 @@ form textarea {
   }
   .home {
     grid-template-columns: 0.5fr 3fr;
+    padding: 50px 4%;
   }
   .home-text {
     grid-column: 1/3;
