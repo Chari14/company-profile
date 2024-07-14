@@ -1,7 +1,7 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
-  margin: 3;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
@@ -82,11 +82,10 @@ header.shadow {
   color: var(--hover);
 }
 #menu-icon {
-  font-size: 35px;
+  font-size: 24px;
   cursor: pointer;
   z-index: 10001;
   display: none;
-  margin-right: 35px;
 }
 #darkmode {
   font-size: 22px;
@@ -109,10 +108,9 @@ header.shadow {
 }
 
 .home-img img {
-  width: 50%;
-  height: 30%;
-  border-radius: 7cap;
-
+  width: 70%;
+  border-radius: 50%;
+  margin-top: 10%;
 }
 .home-img:hover{
     transform: scale(1.1);
@@ -431,7 +429,7 @@ form textarea {
     text-align: center;
   }
   .navbar.active {
-    top: 74%;
+    top: 100%;
   }
   .navbar a {
     padding: 1.5rem;
@@ -507,31 +505,7 @@ form textarea {
   }
  }
 
- .footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.footer-social a {
-  font-size: 24px;
-  color: #333;
-  text-decoration: none;
-}
-
-.maps-all {
-  display: flex;
-  justify-content: center;
-}
-
-.maps-all iframe {
+ .maps-all iframe {
   width: 100%;
   height: 300px;
   max-width: 100%;
@@ -548,8 +522,6 @@ form textarea {
       height: 450px;
   }
 }
-
-
 /*=========================== Cart Image ================================*/
 
 .maps-all{
