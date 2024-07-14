@@ -99,7 +99,6 @@ header.shadow {
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
   gap: 1rem;
-  margin: -15% -28% 0% 0%;
 }
 .home-img {
   order: 3;
@@ -391,7 +390,7 @@ form textarea {
   color: #22cf91;
 }
 /* Making Responsive */
-@media (max-width: 991px) {
+@media (max-width: 991px) {  margin: -15% -28% 0% 0%;
   header {
     padding: 18px 4%;
   }
