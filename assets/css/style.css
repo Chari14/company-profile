@@ -482,7 +482,7 @@ form textarea {
     margin-left: 25%;
   }
   .profile-image {
-    background-image: url("https://hariprasetiyo.netlify.app/assets/images/Foto%20CV%202.jpg");
+    background-image: url("./assets/images/Foto%20CV%202.jpg");
     width: 200px;
     height: 200px;
     background-size: cover;
